@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+    
+    <div id="playArea">
+        <div class="1"></div>
+        <div class="2"></div>
+        <div class="3"></div>
+        <div class="4"></div>
+        <div class="5"></div>
+        <div class="6"></div>
+        <div class="7"></div>
+        <div class="8"></div>
+        <div class="9"></div>
+    </div>
+    <input type="text" id="gameId" placeholder="gameId">
+    <div class="submit" onclick="submit()">Host/Join</div>
+</body>
+</html>
+
